@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./cards.component.css']
 })
 export class CardsComponent {
+  numero = 0
 
+  incremento(){
+    this.numero++
+  }
+
+  decremento(){
+    this.numero--
+  }
 }

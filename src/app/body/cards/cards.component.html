@@ -1,11 +1,12 @@
-<div>
+<div class="row  justify-content-center">
     <div class="card mt-5" style="width: 18rem;">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+          <h5 class="card-title">Conteo</h5>
+          <h1 style="font-size: 100px;">{{numero}}</h1>
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+              <button type="button" class="btn btn-danger" (click)="decremento()">Decrement</button>
+              <button type="button" class="btn btn-success" (click)="incremento()">Increment</button>
+            </div>
         </div>
       </div>
 </div>
